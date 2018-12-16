@@ -9,7 +9,25 @@
 }
 
 
+.collectionPreview {
+    background-color: rgba(245, 245, 245, 0.4);
+    opacity: 1;
+    padding: 0;
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
 
+.collectionPreview {
+    height: 400px;
+}
+
+.collectionPreview:hover {
+    -webkit-filter: brightness(100%);
+}
 
 
 /*
