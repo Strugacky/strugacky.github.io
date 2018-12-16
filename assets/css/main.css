@@ -22,7 +22,7 @@
 }
 
 .collectionPreview {
-    height: 400px;
+    height: wrap-content;
 }
 
 .collectionPreview:hover {
